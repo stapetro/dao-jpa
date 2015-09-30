@@ -1,0 +1,24 @@
+/*
+ * DAO library based on JPA spec
+ *
+ * License: Apache License, Version 2.0, January 2004
+ * See the LICENSE file in the root directory or <http://www.apache.org/licenses/>.
+ *
+ */
+
+group 'com.github.stapetro'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'javax', name: 'javaee-api', version:'7.0';
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
