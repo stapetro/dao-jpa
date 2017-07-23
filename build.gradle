@@ -8,6 +8,7 @@
 
 group 'com.github.stapetro'
 version '1.0-SNAPSHOT'
+description = 'JPA DAO wrapper'
 
 apply plugin: 'java'
 
